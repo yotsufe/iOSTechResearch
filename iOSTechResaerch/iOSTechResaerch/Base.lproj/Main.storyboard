@@ -23,6 +23,9 @@
                                     <constraint firstAttribute="height" constant="60" id="dxV-Re-Kaz"/>
                                 </constraints>
                                 <state key="normal" title="Xib Menu"/>
+                                <connections>
+                                    <action selector="xibMenuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uv9-HF-stW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
