@@ -1,8 +1,8 @@
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
-    @IBAction func xibMenuButton(_ sender: UIButton) {
+    @IBAction func xibMenuButton(_ sender: Any) {
         openXibMenu()
     }
 
