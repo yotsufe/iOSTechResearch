@@ -12,9 +12,7 @@ class MainViewController: UIViewController {
     }
 
     func openXibMenu() {
-        print("openXibMenu")
-
-        let vc: UIViewController = XibMenuViewController()
-        self.present(vc, animated: true, completion: nil)
+        let nc = self.navigationController
+        nc?.pushViewController(XibMenuViewController(), animated: true)
     }
 }
