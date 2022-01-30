@@ -38,6 +38,17 @@
                                     <action selector="userDefaultsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ceY-Vi-3BX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odu-K1-hKI">
+                                <rect key="frame" x="0.0" y="210" width="414" height="60"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="vBQ-68-IF0"/>
+                                </constraints>
+                                <state key="normal" title="HTTP"/>
+                                <connections>
+                                    <action selector="httpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S8o-Qj-ONg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -45,9 +56,12 @@
                             <constraint firstItem="yRN-gz-H54" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Wx-0S-pya"/>
                             <constraint firstItem="jXD-f9-7VD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BqB-2G-HNR"/>
                             <constraint firstItem="yRN-gz-H54" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Dzz-tm-GdU"/>
+                            <constraint firstItem="odu-K1-hKI" firstAttribute="trailing" secondItem="yRN-gz-H54" secondAttribute="trailing" id="LDD-01-3nT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jXD-f9-7VD" secondAttribute="trailing" id="Pmc-xX-vXU"/>
                             <constraint firstItem="jXD-f9-7VD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="T27-Zq-H0J"/>
+                            <constraint firstItem="odu-K1-hKI" firstAttribute="leading" secondItem="yRN-gz-H54" secondAttribute="leading" id="jDQ-fx-alf"/>
                             <constraint firstItem="yRN-gz-H54" firstAttribute="top" secondItem="jXD-f9-7VD" secondAttribute="bottom" constant="1" id="v1i-sK-8FD"/>
+                            <constraint firstItem="odu-K1-hKI" firstAttribute="top" secondItem="yRN-gz-H54" secondAttribute="bottom" constant="1" id="xTb-hL-cy3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rab-h8-6XK"/>

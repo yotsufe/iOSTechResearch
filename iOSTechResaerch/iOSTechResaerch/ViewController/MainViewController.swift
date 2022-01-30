@@ -12,6 +12,11 @@ class MainViewController: UIViewController {
         nc?.pushViewController(UserDefaultsViewController(), animated: true)
     }
 
+    @IBAction func httpButton(_ sender: Any) {
+        let nc = self.navigationController
+        nc?.pushViewController(HttpViewController(), animated: true)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Main"
