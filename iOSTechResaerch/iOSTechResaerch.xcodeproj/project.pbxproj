@@ -19,9 +19,12 @@
 		65872CE327A1A21000A8E3D7 /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65872CE227A1A21000A8E3D7 /* UserDefaultsViewController.swift */; };
 		65872CE527A623EF00A8E3D7 /* HttpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65872CE427A623EF00A8E3D7 /* HttpViewController.swift */; };
 		65872CE727A6249900A8E3D7 /* HttpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65872CE627A6249900A8E3D7 /* HttpViewController.xib */; };
+		DE46803C96736C004B988F31 /* Pods_iOSTechResaerch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D033316F155D89B6F44B69C /* Pods_iOSTechResaerch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A5AF9736E98C3A2BCB8BA28 /* Pods-iOSTechResaerch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTechResaerch.release.xcconfig"; path = "Target Support Files/Pods-iOSTechResaerch/Pods-iOSTechResaerch.release.xcconfig"; sourceTree = "<group>"; };
+		1D033316F155D89B6F44B69C /* Pods_iOSTechResaerch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTechResaerch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656A183B278DC0A30096F2EC /* iOSTechResaerch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTechResaerch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656A183E278DC0A30096F2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656A1840278DC0A30096F2EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		65872CE227A1A21000A8E3D7 /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
 		65872CE427A623EF00A8E3D7 /* HttpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpViewController.swift; sourceTree = "<group>"; };
 		65872CE627A6249900A8E3D7 /* HttpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HttpViewController.xib; sourceTree = "<group>"; };
+		90833BA0FC83D89BCA7E9B57 /* Pods-iOSTechResaerch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTechResaerch.debug.xcconfig"; path = "Target Support Files/Pods-iOSTechResaerch/Pods-iOSTechResaerch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE46803C96736C004B988F31 /* Pods_iOSTechResaerch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,8 @@
 			children = (
 				656A183D278DC0A30096F2EC /* iOSTechResaerch */,
 				656A183C278DC0A30096F2EC /* Products */,
+				8686EF02294DA23848FED853 /* Pods */,
+				9E0D6088C01A47712193CEBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +108,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		8686EF02294DA23848FED853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90833BA0FC83D89BCA7E9B57 /* Pods-iOSTechResaerch.debug.xcconfig */,
+				1A5AF9736E98C3A2BCB8BA28 /* Pods-iOSTechResaerch.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E0D6088C01A47712193CEBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D033316F155D89B6F44B69C /* Pods_iOSTechResaerch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 656A184F278DC0A50096F2EC /* Build configuration list for PBXNativeTarget "iOSTechResaerch" */;
 			buildPhases = (
+				33FFD9EA350D917086EB7E93 /* [CP] Check Pods Manifest.lock */,
 				656A1837278DC0A30096F2EC /* Sources */,
 				656A1838278DC0A30096F2EC /* Frameworks */,
 				656A1839278DC0A30096F2EC /* Resources */,
+				CBDC2F61F2F84F82EA85D1F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +195,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33FFD9EA350D917086EB7E93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTechResaerch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDC2F61F2F84F82EA85D1F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTechResaerch/Pods-iOSTechResaerch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTechResaerch/Pods-iOSTechResaerch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTechResaerch/Pods-iOSTechResaerch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		656A1837278DC0A30096F2EC /* Sources */ = {
@@ -323,6 +392,7 @@
 		};
 		656A1850278DC0A50096F2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90833BA0FC83D89BCA7E9B57 /* Pods-iOSTechResaerch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +411,7 @@
 		};
 		656A1851278DC0A50096F2EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5AF9736E98C3A2BCB8BA28 /* Pods-iOSTechResaerch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
