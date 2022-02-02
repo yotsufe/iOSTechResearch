@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6557674A27AABFD90056CA9E /* QiitaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6557674927AABFD90056CA9E /* QiitaListViewController.swift */; };
+		6557674D27AACAB80056CA9E /* QiitaListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6557674C27AACAB80056CA9E /* QiitaListViewController.xib */; };
 		656A183F278DC0A30096F2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A183E278DC0A30096F2EC /* AppDelegate.swift */; };
 		656A1841278DC0A30096F2EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A1840278DC0A30096F2EC /* SceneDelegate.swift */; };
 		656A1843278DC0A30096F2EC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A1842278DC0A30096F2EC /* MainViewController.swift */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		1A5AF9736E98C3A2BCB8BA28 /* Pods-iOSTechResaerch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTechResaerch.release.xcconfig"; path = "Target Support Files/Pods-iOSTechResaerch/Pods-iOSTechResaerch.release.xcconfig"; sourceTree = "<group>"; };
 		1D033316F155D89B6F44B69C /* Pods_iOSTechResaerch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTechResaerch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6557674927AABFD90056CA9E /* QiitaListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaListViewController.swift; sourceTree = "<group>"; };
+		6557674C27AACAB80056CA9E /* QiitaListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiitaListViewController.xib; sourceTree = "<group>"; };
 		656A183B278DC0A30096F2EC /* iOSTechResaerch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTechResaerch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656A183E278DC0A30096F2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656A1840278DC0A30096F2EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6557674827AABD3A0056CA9E /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				65872CE427A623EF00A8E3D7 /* HttpViewController.swift */,
+				6557674927AABFD90056CA9E /* QiitaListViewController.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		6557674B27AACA620056CA9E /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				65872CE627A6249900A8E3D7 /* HttpViewController.xib */,
+				6557674C27AACAB80056CA9E /* QiitaListViewController.xib */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		656A1832278DC0A30096F2EC = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +112,7 @@
 		656A185F27940CCA0096F2EC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				65872CE427A623EF00A8E3D7 /* HttpViewController.swift */,
+				6557674827AABD3A0056CA9E /* Http */,
 				656A1842278DC0A30096F2EC /* MainViewController.swift */,
 				65872CE227A1A21000A8E3D7 /* UserDefaultsViewController.swift */,
 				656A18672799B6AB0096F2EC /* XibMenuViewController.swift */,
@@ -101,7 +123,7 @@
 		656A18642799B6450096F2EC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				65872CE627A6249900A8E3D7 /* HttpViewController.xib */,
+				6557674B27AACA620056CA9E /* Http */,
 				65872CE027A1A1F800A8E3D7 /* UserDefaultsViewController.xib */,
 				656A18652799B6920096F2EC /* XibMenuViewController.xib */,
 			);
@@ -114,7 +136,6 @@
 				90833BA0FC83D89BCA7E9B57 /* Pods-iOSTechResaerch.debug.xcconfig */,
 				1A5AF9736E98C3A2BCB8BA28 /* Pods-iOSTechResaerch.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,6 +210,7 @@
 				656A18662799B6920096F2EC /* XibMenuViewController.xib in Resources */,
 				65872CE727A6249900A8E3D7 /* HttpViewController.xib in Resources */,
 				65872CE127A1A1F800A8E3D7 /* UserDefaultsViewController.xib in Resources */,
+				6557674D27AACAB80056CA9E /* QiitaListViewController.xib in Resources */,
 				656A1848278DC0A50096F2EC /* Assets.xcassets in Resources */,
 				656A1846278DC0A30096F2EC /* Main.storyboard in Resources */,
 			);
@@ -245,6 +267,7 @@
 			files = (
 				656A1843278DC0A30096F2EC /* MainViewController.swift in Sources */,
 				65872CE327A1A21000A8E3D7 /* UserDefaultsViewController.swift in Sources */,
+				6557674A27AABFD90056CA9E /* QiitaListViewController.swift in Sources */,
 				656A18682799B6AB0096F2EC /* XibMenuViewController.swift in Sources */,
 				656A183F278DC0A30096F2EC /* AppDelegate.swift in Sources */,
 				65872CE527A623EF00A8E3D7 /* HttpViewController.swift in Sources */,

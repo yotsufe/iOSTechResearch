@@ -1,9 +1,9 @@
 import UIKit
 
-class HttpViewController: UIViewController {
+class QiitaListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "HTTP"
+        self.title = "QiitaList"
     }
 }
